@@ -1,0 +1,18 @@
+artifact_path: s3://mlflow/1/models/m-4872e9a47833466a8d8e7f08cffc5a7d/artifacts
+flavors:
+  python_function:
+    code: null
+    data: data/model.dill
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: loader
+    python_version: 3.9.6
+    streamable: false
+mlflow_version: 3.1.4
+model_id: m-4872e9a47833466a8d8e7f08cffc5a7d
+model_size_bytes: 732864
+model_uuid: m-4872e9a47833466a8d8e7f08cffc5a7d
+prompts: null
+run_id: ed3dbd29c0af4713ab8eaea8b2bb82ee
+utc_time_created: '2025-08-04 06:21:05.575290'
