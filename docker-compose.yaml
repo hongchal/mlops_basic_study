@@ -32,7 +32,7 @@ services:
   mlflow-server:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: mlflow.Dockerfile
     depends_on:
       mlflow-artifacts-store:
         condition: service_healthy
